@@ -1,10 +1,11 @@
 import React from 'react';
 import Header from '../Header/index'
 import Sections from '../Sections/index'
-import Titulo from '../Titulo/index'
-import '../index.css'
+import Title from '../Title/index'
+import '../main.css';
 
-function Home(){
+
+export default function Home(){
     return(
     <div>
         <div class="Header">
@@ -12,7 +13,7 @@ function Home(){
         </div>
 
         <div class = "Titulo">
-            <Titulo title="Escolha uma opção abaixo:"/>
+            <Title title="Escolha uma opção abaixo:"/>
         </div>
 
         <div class="Section">
@@ -26,5 +27,3 @@ function Home(){
 
     );
 }
-
-export default Home;

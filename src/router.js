@@ -2,8 +2,8 @@ import React from 'react';
 import {Route, BrowserRouter} from 'react-router-dom';
 
 import Home from './components/Home/index';
-import ClassificacaoImagem from './components/ClassificacaoImagem/index';
-import DetectObjeto from './components/DetecObjeto/index';
+import ClassificacaoImagem from './components/ClassificationImage/index';
+import DetectObjeto from './components/DetecObject/index';
 
 function Routes(){
     return(

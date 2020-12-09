@@ -1,8 +1,9 @@
 import React from 'react';
-import Imagem from '../Imagem/index';
-import '../index.css'
+import Imagem from '../Image/index';
+import '../main.css';
 
-function Upload(){
+
+export default function Upload(){
     const [file, setFile] = React.useState("");
 
     function handleUpload(event) {
@@ -14,12 +15,10 @@ function Upload(){
     return (
       <div class="upload-box">
         <input type="file" onChange={handleUpload} />
-        <p>Filename: {file.name}</p>
-        <p>File type: {file.type}</p>
-        <p>File size: {file.size} bytes</p>
+        <p>Nome da imagem: {file.name}</p>
+        <p>Tipo da imagem: {file.type}</p>
+        <p>Tamanho da imagem: {file.size} bytes</p>
         {file && <Imagem image={file} />}
       </div>
     );
   }
-
-export default Upload;

@@ -1,7 +1,8 @@
 import React from 'react';
 import {Link as RouterLink} from 'react-router-dom';
 import {Button, makeStyles} from "@material-ui/core";
-import '../index.css'
+import '../main.css';
+
 
 const useStyles = makeStyles(() => ({
     sectionButton:{
@@ -19,7 +20,7 @@ const useStyles = makeStyles(() => ({
     },
 }));
 
-function Sections(props){
+export default function Sections(props){
     var link = props.numero;
     const {sectionButton} = useStyles();
 
@@ -43,5 +44,3 @@ function Sections(props){
 
     );
 }
-
-export default Sections;

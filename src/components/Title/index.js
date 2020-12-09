@@ -1,9 +1,8 @@
 import React from 'react';
 
-function Titulo(props){
+export default function Title(props){
     return(
         <h2>{props.title}</h2>
     );
 }
 
-export default Titulo;

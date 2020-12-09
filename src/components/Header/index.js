@@ -1,5 +1,5 @@
 import React from 'react';
-import '../index.css'
+import '../main.css';
 import {AppBar, Button, Toolbar, makeStyles} from "@material-ui/core";
 import { Link as RouterLink} from 'react-router-dom';
 
@@ -25,13 +25,13 @@ const useStyles = makeStyles(() => ({
 
 const headersData=[
     {
-        label: "Home",
+        label: "Início",
         href: "/",
     },
 ];
 
 
-function Header(props){
+export default function Header(props){
     const {header, menuButton, toolbar} = useStyles();
 
     const getMenuButton = () =>{
@@ -56,5 +56,3 @@ function Header(props){
         </header>
     );
 }
-
-export default Header;

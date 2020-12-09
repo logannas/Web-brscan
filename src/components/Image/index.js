@@ -1,7 +1,8 @@
 import React from 'react';
-import '../index.css';
+import '../main.css';
 
-function Imagem(props){
+
+export default function Image(props){
 
     return(
         <div>
@@ -10,5 +11,3 @@ function Imagem(props){
 
     );
 }
-
-export default Imagem;

@@ -1,10 +1,11 @@
 import React from 'react';
 import Header from '../Header/index';
-import Titulo from '../Titulo/index';
+import Titulo from '../Title/index';
 import Upload from '../Upload/index';
-import '../index.css';
+import '../main.css';
 
-function DetectObjeto (){
+
+export default function DetectObject (){
     return(
             <div>
                 <div class="Header">
@@ -22,5 +23,3 @@ function DetectObjeto (){
     );
 
 }
-
-export default DetectObjeto;
