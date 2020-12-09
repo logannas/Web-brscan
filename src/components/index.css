@@ -1,0 +1,85 @@
+.Header{
+    background-Color:#06CDDB;
+    padding: 20pxm 10px;
+    overflow: hidden;
+    color: #02383C;
+    font-family: Helvetica;
+}
+
+h1{
+    text-align: center;
+}
+
+.Section{
+    text-align: center;
+}
+
+.bnt{
+   text-align: center;
+   margin-top: 50px;
+   vertical-align: middle;
+   display:inline-block;
+}
+
+.efeito{
+    border: none;
+    background-Color: #06CDDB;
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+    border-radius: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+
+.efeito-1:hover{
+    background: #04828B;
+}
+
+.Titulo{
+    text-align: Center;
+    color: #02383C;
+    font-family: Helvetica;
+    height: 60px;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.Link{
+    color: #02383C;
+    text-decoration: none;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+.Upload{
+    text-align: Center;
+}
+
+.inputfile {
+    display: none;
+}
+
+.imagem{
+    max-width: 250px;
+    max-height: 150px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.upload-box{
+    padding-top: 50px;
+}
+
+p{
+    color: #02383C;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: bold;
+
+}
