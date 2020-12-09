@@ -6,6 +6,7 @@
     font-family: Helvetica;
 }
 
+
 h1{
     text-align: center;
 }
@@ -45,7 +46,7 @@ h1{
     color: #02383C;
     font-family: Helvetica;
     height: 60px;
-    padding-top: 20px;
+    padding-top: 70px;
     font-size: 18px;
 }
 
@@ -73,7 +74,8 @@ h1{
 }
 
 .upload-box{
-    padding-top: 50px;
+    text-align: center;
+    margin-top: 50px;
 }
 
 p{
