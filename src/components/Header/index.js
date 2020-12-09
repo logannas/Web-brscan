@@ -1,7 +1,7 @@
 import React from 'react';
 import '../index.css'
 import {AppBar, Button, Toolbar, makeStyles} from "@material-ui/core";
-import { Link } from 'react-router-dom';
+import { Link as RouterLink} from 'react-router-dom';
 
 const useStyles = makeStyles(() => ({
         header:{
@@ -26,6 +26,7 @@ const useStyles = makeStyles(() => ({
 const headersData=[
     {
         label: "Home",
+        href: "/",
     },
 ];
 
@@ -34,9 +35,9 @@ function Header(props){
     const {header, menuButton, toolbar} = useStyles();
 
     const getMenuButton = () =>{
-        return headersData.map(({label})=>{
+        return headersData.map(({label, href})=>{
             return(
-                <Button className={menuButton}><Link to={"/"} class="Link">{label}</Link></Button>
+                <Button {...{key: label, to:href, component: RouterLink, className:menuButton}}>{label}</Button>
             );
         });
     };
