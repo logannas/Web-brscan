@@ -8,17 +8,9 @@ import '../main.css';
 export default function DetectObject (){
     return(
             <div>
-                <div class="Header">
-                    <Header title="Esse é o título"/>
-                </div>
-    
-                <div class = "Titulo">
-                    <Titulo title="Faça o upload abaixo da imagem que deseja classificar"/>
-                </div>
-    
-                <div class="Upload">
-                    <Upload />
-                </div>
+                <Header title="Esse é o título"/>
+                <Titulo title="Faça o upload abaixo da imagem que deseja classificar:"/>
+                <Upload />
             </div>
     );
 

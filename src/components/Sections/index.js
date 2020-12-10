@@ -6,7 +6,7 @@ import '../main.css';
 
 const useStyles = makeStyles(() => ({
     sectionButton:{
-        backgroundColor: "#06CDDB",
+        backgroundColor: "#C65353",
         fontFamily: "Helvetica",
         fontSize: "20px",
         width: "300px",
@@ -40,7 +40,7 @@ export default function Sections(props){
     };
 
     return(
-        <div class="bnt">{getMenuButton()}</div>
+        <div className="bnt">{getMenuButton()}</div>
 
     );
 }

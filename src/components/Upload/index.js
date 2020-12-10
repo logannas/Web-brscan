@@ -13,7 +13,7 @@ export default function Upload(){
     }
   
     return (
-      <div class="upload-box">
+      <div className="upload-box Upload">
         <input type="file" onChange={handleUpload} />
         <p>Nome da imagem: {file.name}</p>
         <p>Tipo da imagem: {file.type}</p>

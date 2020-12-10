@@ -1,3 +1,7 @@
+body{
+    background-color: #F4E3DD
+}
+
 .Header{
     background-Color:#06CDDB;
     padding: 20pxm 10px;
@@ -13,6 +17,12 @@ h1{
 
 .Section{
     text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 60vh;
+    flex-direction: row;
+    align-items: center;
 }
 
 .bnt{
@@ -84,4 +94,9 @@ p{
     font-size: 20px;
     font-weight: bold;
 
+}
+
+.DivImage{
+    text-align: center;
+    align-items: center;
 }
