@@ -10,7 +10,7 @@ export default function DetectObject (){
             <div>
                 <Header title="Esse é o título"/>
                 <Titulo title="Faça o upload abaixo da imagem que deseja classificar:"/>
-                <Upload />
+                <Upload link="2"/>
             </div>
     );
 

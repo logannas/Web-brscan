@@ -9,7 +9,7 @@ export default function ClassificationImage (){
         <div>
             <Header title="Esse é o título"/>
             <Title title="Faça o upload abaixo da imagem que deseja classificar:"/>
-            <Upload />
+            <Upload link="1"/>
         </div>
     );
 

@@ -5,7 +5,7 @@ import { Link as RouterLink} from 'react-router-dom';
 
 const useStyles = makeStyles(() => ({
         header:{
-            backgroundColor: "#346E9D",
+            backgroundColor: "#263073",
             fontFamily: "Helvetica",
             color: "#000000",
         },
@@ -15,12 +15,14 @@ const useStyles = makeStyles(() => ({
             fontWeight: 700,
             size: "18px",
             marginLeft: "38px",
-            color: "FEFBFB",
+            variant:"contained",
+            color:"white",
         },
 
         toolbar: {
             display: "flex",
             justifyContent: "space-between",
+            color: "white",
         },
 }));
 
