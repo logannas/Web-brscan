@@ -6,7 +6,7 @@ import '../main.css';
 
 const useStyles = makeStyles(() => ({
     sectionButton:{
-        backgroundColor: "#C65353",
+        backgroundColor: "#346E9D",
         fontFamily: "Helvetica",
         fontSize: "20px",
         width: "300px",

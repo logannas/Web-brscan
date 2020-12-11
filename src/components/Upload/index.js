@@ -11,7 +11,6 @@ export default function Upload(){
   
       //Código para enviar para o servidor
     }
-  
     return (
       <div className="upload-box Upload">
         <input type="file" onChange={handleUpload} />
