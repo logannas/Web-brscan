@@ -12,9 +12,8 @@ export default function Home(){
         <Title title="Escolha uma opção abaixo:"/>
         <div className="Section">
             <Sections title="Classificação de Imagem" numero="1"/>
-            <Sections title="Detecção de Objetos" numero="2"/>
-        </div>    
-        
+            <Sections title="Detecção de Objetos" numero="2"/>   
+        </div>      
     </div>
         
 
