@@ -1,13 +1,12 @@
 import React from 'react';
-import Header from '../Header/index';
-import Title from '../Title/index';
+import Imagem from '../Image/index';
 import {Button, makeStyles} from "@material-ui/core";
 import '../main.css';
 import { Link as RouterLink} from 'react-router-dom';
 
 const useStyles = makeStyles(() => ({
     resultButton:{
-        background: "linear-gradient(45deg, #263073 30%, #346E9D 90%)",
+        background: "linear-gradient(45deg, #B43C48  30%, #EF3B36 90%)",
         fontFamily: "Helvetica",
         fontSize: "20px",
         width: "100px",
@@ -24,7 +23,7 @@ const useStyles = makeStyles(() => ({
   
 
 export default function ResultClassification(props){
-
+    const file = props.file;
     const {resultButton} = useStyles();
 
     const headersData=[
@@ -44,15 +43,13 @@ export default function ResultClassification(props){
 
     return(
         <div>
-            <Header title="Esse é o título"/>
-            <Title title="O resultado da sua solicitação foi:"/>
             <div className="upload-box Upload" >
                 <p>Tipo da solicitação: Classificação de Imagem</p>
                 <p>Classe: <u>Real</u></p>
                 <p>Probabilidade: <u>X %</u></p>
+                {file && <Imagem image={file} />}
                 {getResultButton()}
             </div>
-            
         </div>
     );
 

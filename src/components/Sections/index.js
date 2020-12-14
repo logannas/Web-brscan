@@ -6,7 +6,7 @@ import '../main.css';
 
 const useStyles = makeStyles(() => ({
     sectionButton:{
-        background: "linear-gradient(45deg, #263073 30%, #346E9D 90%)",
+        background: "linear-gradient(45deg, #B43C48  30%, #EF3B36 90%)",
         fontFamily: "Helvetica",
         fontSize: "20px",
         width: "300px",
