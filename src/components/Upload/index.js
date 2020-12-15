@@ -23,8 +23,8 @@ const useStyles = makeStyles(() => ({
   },
   modal:{
     backgroundColor: "#F7FCFC",
-    marginLeft: "30%",
-    marginRight: "30%",
+    marginLeft: "20%",
+    marginRight: "20%",
     marginTop: "8%",
   },
   button:{
@@ -64,7 +64,6 @@ export default function Upload(props){
     const send =()=>{
       //Enviar para o servidor
       //Pagar as informações de resposta do servidor
-      console.log("Aqui");
       setModalIsOpen(true);
       
     }
@@ -75,7 +74,6 @@ export default function Upload(props){
 
     const getUploadButton = (file) =>{
       return headersData.map(({label})=>{
-          console.log(file);
           return(
             <Button onClick={send} type="button"{...{key: label, className:uploadButton}}>Enviar</Button>
           );
